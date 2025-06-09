@@ -1,0 +1,3 @@
+input:checked ~ a {
+  display: none;
+}
