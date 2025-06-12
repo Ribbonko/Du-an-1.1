@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
+    <title>Submit a link to Akarin'sPlaylist</title>
+  </head>
+  <body>
+    <a class="hover" href="../index.html">Home</a>
+    <a class="hover" href="./Music.html">Music</a>
+    <a class="hover" href="./Add a song.html"> <span style="color: green; font-size: 17px"> + </span> Add a song</a>
+    <a class="hover" href="./Contact.html">Contact</a>
+    <a class="hover" href="./Follow us.html">Follows us</a>
+    <a class="hover" href="./Login.html">Login</a>
+    <a class="Support-us" href="./Support us .html">Support us</a>
+    <div class="back_ground">
+      <div class="text-white">
+        <h1 class="mt-4 font-semibold-aa">Gửi liên kết đến Akarin'sPlaylist</h1>
+        <p class="mt-4">
+          Nếu bạn tìm thấy một liên kết bị thiếu trên trang web, đây là nơi để gửi nó. Chúng tôi sẽ xem xét ngay khi có
+          thể!
+        </p>
+        <p class="mt-4">Chỉ gửi <strong class="font-bold-aa">các bài hát hoặc album anime chính thức</strong>.</p>
+        <p class="mt-4">Đừng gửi: <br /></p>
+        <ul class="mt-4">
+          <li>Bản cover</li>
+          <li>Các bài hát/album không chính thức liên quan đến anime</li>
+          <li>
+            Nội dung tải lên vi phạm bản quyền (
+            <a
+              class="underline"
+              href="https://docs.google.com/document/d/1Qzj4ZGYRyIZqersalt9_Bzbjybm4__bB0tevWAXCBac/edit?tab=t.0"
+              target="_blank"
+              >đọc hướng dẫn</a
+            >
+            để biết cách nhận biết)
+          </li>
+        </ul>
+        <label class="text-white" for="Link">Link</label><br />
+        <input id="Link" name="Link" type="text" placeholder="Liên kết đến bài hát hoặc album" />
+      </div>
+      <div class="grid-cols-2">
+        <p class="text-xs mt-1">
+          Spotify examples
+          <br />
+          -Bài hát: https://open.spotify.com/track/73zCZUCoXcIU2r1USfmotK
+          <br />
+          -Album: https://open.spotify.com/album/05xPgo0O1tujgg6eDzIfxV
+          <br />
+          <br />
+          Apple Music examples
+          <br />
+          -Bài hát: https://music.apple.com/us/album/glory-days/1277558617?i=1277558619
+          <br />
+          -Album: https://music.apple.com/us/album/oddtaxi-original-soundtrack/1564426128
+        </p>
+      </div>
+      <div>
+        <label for="link" class="text-white"> Type</label><br />
+        <select name="type" id="type" required class="mt-1">
+          <option selected disabled hidden value>Chọn loại bài hát hoặc album</option>
+          <option value="">Opening</option>
+          <option value="">Ending</option>
+          <option value="">Insert</option>
+          <option value="">Theme Song</option>
+          <option value="">Original soundtrack</option>
+          <option value="">Character Song</option>
+          <option value="">Image Song</option>
+          <option value="">Image Album</option>
+          <option value="">Other Album</option>
+          <option value="">Music Video</option>
+          <option value="">PV Song</option>
+          <option value="">Vocal Album</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label class="text-white" for="email">E-mail</label> <br />
+        <input type="email" name="email" id="email" placeholder="E-mail address" />
+        <p class="text-xs mt-1">
+          Địa chỉ email (chỉ dùng để thông báo khi bài gửi được chấp nhận/từ chối hoặc yêu cầu bổ sung thông tin)
+        </p>
+      </div>
+      <div>
+        <label class="text-white" for="commet">Thông tin về liên kết bạn muốn gửi:</label> <br />
+        <input id="commet" name="commet" type="text" placeholder="Anime" /><br />
+        <br />
+        <button class="bg-white" type="submit">Gửi</button>
+      </div>
+    </div>
+  </body>
+</html>
