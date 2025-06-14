@@ -1,14 +1,22 @@
-.Support-us {
+/* A Head */
+#Support-us {
   color: red;
 }
-input:checked ~ a {
-  display: none;
+.bg-a {
+  background-color: white;
+  margin: 0 auto;
+  padding: 20px 200px;
+  text-align: center;
 }
-/* Màu của a */
-.hover {
+.bg-a a {
   color: black;
   font-size: 18px;
 }
+.bg-a a:hover {
+  color: green;
+}
+/*  */
+
 /* Khi di chuột */
 .hover:hover {
   color: rgb(0, 128, 58);
