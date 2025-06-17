@@ -2,49 +2,49 @@ body {
   background-color: #ffffff;
 }
 
-/* Music Album */
-.Music-Album {
-  background-color: #1abc54;
-  padding: 15px;
-  margin-top: 10px;
-  margin-left: -10px;
-  margin-right: -10px;
-  text-align: center;
-  color: #ffffff;
-}
 /* Content */
 .Content {
   margin: 20px;
 }
 
 /* A */
-.Content a {
-  margin-left: 890px;
+.Titel-Music {
+  text-align: center;
   font-size: 25px;
-  color: black;
-  text-decoration: none;
 }
-.Content a:hover {
-  color: green;
+.Titel-Music a {
+  color: black;
+}
+.Titel-Music a:hover {
+  color: rgb(0, 128, 58);
+}
+.Img-music {
+  margin: 10px auto;
+  box-shadow: 0 4x 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  box-sizing: border-box;
+}
+.Img-music img {
+  max-width: 300px;
+  border-radius: 3px;
 }
 
 /* H2 */
-.Content h2 {
-  margin-left: 890px;
-  margin-bottom: -10px;
-  font-size: 27x;
-  color: #1abc54;
+.Content {
+  margin: 0px auto;
+  padding: 0px 20px;
+  box-sizing: border-box;
 }
-
-/* Img */
-.Content img {
-  margin: 10px 790px;
-  width: 300px;
+.Content h2 {
+  font-size: 27px;
+  text-align: center;
+  color: #1abc54;
 }
 .Content p {
   font-style: italic;
   font-size: 23px;
-  line-height: 1.5;
+  line-height: 1.6;
+  color: #333;
   text-align: justify;
 }
 .Content hr {

@@ -45,15 +45,12 @@ a {
 }
 
 /* Welcome to my website */
-.wecome {
+.Titel-Page {
   background-color: #1abc54;
   padding: 15px;
-  margin-top: 10px;
-  margin-left: -10px;
-  margin-right: -10px;
+  margin: 10px -10px;
   text-align: center;
   color: #ffffff;
-  max-width: 1910px;
   box-sizing: border-box;
 }
 
@@ -131,6 +128,7 @@ a {
   line-height: 22px;
   font-size: 16px;
   font-family: sans-serif;
+  text-align: justify;
 }
 .footer-column h3 {
   margin-bottom: 25px;
@@ -154,6 +152,19 @@ a {
 
 /* Quay về */
 .Quay-về {
-  margin-top: 10px;
-  text-decoration: underline;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #2ecc71; /* Màu xanh */
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.Quay-về:hover {
+  background-color: #27ae60;
 }
