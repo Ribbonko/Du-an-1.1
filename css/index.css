@@ -1,15 +1,12 @@
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
 body {
   background-color: #ffffff;
 }
 
-/* Điều chỉnh cho mobile */
-@media (max-width: 600px) {
-  .content {
-    width: 100%;
-  }
-}
-
-/* Làm mất gạch của a:link */
+/* * Làm cho a mất gạch dưới chân */
 a {
   text-decoration: none;
 }
@@ -22,8 +19,8 @@ a {
   display: flex;
   justify-content: space-between; /* Đẩy 2 phần sang 2 bên */
   align-items: center; /* Căn giữa theo chiều dọc */
-  padding: 0px 200px;
-  box-sizing: border-box;
+  padding: 0rem 20rem;
+  /* max-width: 1356px; */
 }
 .Logo {
 }
@@ -38,7 +35,7 @@ a {
 }
 .right-section a {
   color: #333;
-  font-size: 20px;
+  font-size: 2rem;
 }
 .bg-a a:hover {
   color: rgb(0, 128, 58);
@@ -47,34 +44,35 @@ a {
 /* Welcome to my website */
 .Titel-Page {
   background-color: #1abc54;
-  padding: 15px;
-  margin: 10px -10px;
+  padding: 1.5rem;
+  margin: 1rem -1rem;
   text-align: center;
   color: #ffffff;
   box-sizing: border-box;
+  font-size: 1.6rem;
 }
 
 /* Profile-card */
 .Profile-card {
   background-color: #f9f9f9;
-  padding: 24px;
+  padding: 2.4rem;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  margin: 20px auto;
+  margin: 2rem auto;
   max-width: 600px;
   box-sizing: border-box;
 }
 .Profile-card h2 {
   color: #1abc54; /* Màu xanh nổi bật */
-  font-size: 28px;
+  font-size: 2.8rem;
 }
 .Profile-card p {
   font-style: italic;
-  font-size: 23px;
+  font-size: 2.3rem;
 }
 .Profile-img {
-  margin: 10px auto;
+  margin: 1rem auto;
   box-shadow: 0 4x 8px rgba(0, 0, 0, 0.1);
   max-width: 1000px;
   box-sizing: border-box;
@@ -87,10 +85,10 @@ a {
 
 /* About me */
 .bg-about-me {
-  margin: 30px auto;
+  margin: 3rem auto;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  padding: 20px 30px;
+  padding: 2rem 3rem;
   max-width: 1000px;
   border: 2px solid green;
   box-sizing: border-box;
@@ -98,17 +96,17 @@ a {
 
 .Profile-about-me {
   color: #1abc54;
-  font-size: 26px;
+  font-size: 2.6rem;
   font-weight: bold;
 }
 .bg-about-me p {
   color: #333333;
-  font-size: 24px;
+  font-size: 2.4rem;
   line-height: 1.7;
   text-align: justify;
-  margin-top: 10px;
+  margin-top: 1rem;
 }
-.bg-about-me .Thanks {
+.Thanks {
   color: #1abc54;
   font-weight: bold;
 }
@@ -117,27 +115,27 @@ a {
 .footer {
   display: flex;
   justify-content: space-around; /* Căn chỉnh nội dung: khoảng cách giữa */
-  padding: 20px;
+  padding: 2rem;
   background-color: #f9f9f9; /* Nền sáng */
 }
 
 .footer-column {
   flex: 1; /* Khoảng cách giữa các cột */
   max-width: 300px;
-  padding: 0 15px;
+  padding: 0rem 1.5rem;
   line-height: 22px;
-  font-size: 16px;
+  font-size: 1.6rem;
   font-family: sans-serif;
   text-align: justify;
 }
 .footer-column h3 {
-  margin-bottom: 25px;
-  font-size: 22px;
+  margin-bottom: 2.5rem;
+  font-size: 2.2rem;
   font-weight: bold;
   color: #333;
 }
 .footer-bottom-link {
-  padding-left: 15px;
+  padding-left: 1.5rem;
 }
 .footer-bottom-link a {
   color: rgb(51, 51, 51);
@@ -145,9 +143,9 @@ a {
 
 /* Logo */
 .Logo-2 img {
-  margin-top: -50px;
-  max-width: 250px;
-  max-height: 250px;
+  margin-top: 0px;
+  max-width: 200px;
+  max-height: 200px;
 }
 
 /* Quay về */

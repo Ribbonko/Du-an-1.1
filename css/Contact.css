@@ -1,0 +1,52 @@
+.content-Contact {
+  max-width: 120rem;
+  margin: 3rem auto;
+  text-align: center;
+  font-size: 3rem;
+}
+.content-Contact p {
+  font-style: italic;
+  color: #444;
+}
+
+/* Liên hệ */
+.Liên-hệ {
+  margin: 2rem auto;
+  max-width: 60rem;
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+.Liên-hệ ul {
+  list-style-type: none;
+}
+.Liên-hệ li {
+  margin-bottom: 1rem;
+}
+.Liên-hệ li:hover {
+  transform: translateX(5px); /* Animation */
+  transition: 0.3s;
+}
+.Liên-hệ a {
+  color: black;
+  font-weight: bold;
+}
+.Liên-hệ a:hover {
+  color: #005299;
+  text-decoration: underline;
+}
+.Tel,
+.Email,
+.Facebook {
+  font-weight: bold;
+}
+.Tel {
+  color: black;
+}
+.Email {
+  color: red;
+}
+.Facebook {
+  color: blue;
+}

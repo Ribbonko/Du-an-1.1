@@ -1,0 +1,47 @@
+.Content {
+  margin: 0rem -1rem;
+  padding: 2rem 20rem;
+  background-color: rgb(29 185 84);
+  color: rgb(255 255 255);
+  font-size: 1.8rem;
+}
+.ra-giữa {
+  max-width: 1356px;
+}
+.Content h1 {
+  font-size: 3.4rem;
+  font-family: sans-serif;
+}
+.Content p {
+  font-size: 1.8rem;
+}
+.Content ul {
+  font-size: 1.8rem;
+}
+.Content a {
+  text-decoration: underline;
+  color: rgb(255 255 255);
+}
+.box {
+  width: 50%;
+  margin-top: 2rem;
+  font-size: 1.65rem;
+  line-height: 1.75rem;
+  border-radius: 5px;
+}
+.ví-dụ {
+  font-size: 1.2rem;
+}
+.nhãn {
+  font-size: 2rem;
+}
+.gửi {
+  font-size: 1.65rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+  width: 100px;
+}
+.gửi a {
+  text-decoration: none;
+  color: black;
+}

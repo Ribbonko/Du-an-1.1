@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="../img/Logo32x32-Akaplaylist.png" type="image/x-icon" />
+    <!-- Logo web -->
+    <link rel="shortcut icon" href="../img/Logo32x32.png" type="image/x-icon" />
+    <!-- Link CSS -->
     <link rel="stylesheet" href="../css/index.css" />
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/Add-a-song.css" />
     <title>Submit a link to AkaPlaylist</title>
   </head>
   <body>
@@ -27,52 +29,46 @@
     </div>
 
     <!-- Add a song -->
-    <div class="back_ground">
-      <div class="text-white">
-        <h1 class="mt-4 font-semibold-aa">Gửi liên kết đến AkaPlaylist</h1>
-        <p class="mt-4">
+    <div class="Content">
+      <div class="ra-giữa">
+        <h1>Gửi liên kết đến AkaPLaylist</h1>
+        <p>
           Nếu bạn tìm thấy một liên kết bị thiếu trên trang web, đây là nơi để gửi nó. Chúng tôi sẽ xem xét ngay khi có
           thể!
         </p>
-        <p class="mt-4">Chỉ gửi <strong class="font-bold-aa">các bài hát hoặc album anime chính thức</strong>.</p>
-        <p class="mt-4">Đừng gửi: <br /></p>
-        <ul class="mt-4">
+        <p>Chỉ gửi <strong>các bài hát hoặc album anime chính thức.</strong></p>
+        <p>Đừng gửi:</p>
+        <ul>
           <li>Bản cover</li>
           <li>Các bài hát/album không chính thức liên quan đến anime</li>
           <li>
-            Nội dung tải lên vi phạm bản quyền (
+            Nội dung tải lên vi phạm bản quyền ( đọc
             <a
-              class="underline"
-              href="https://docs.google.com/document/d/1Qzj4ZGYRyIZqersalt9_Bzbjybm4__bB0tevWAXCBac/edit?tab=t.0"
+              href="https://docs.google.com/document/d/1Qzj4ZGYRyIZqersalt9_Bzbjybm4__bB0tevWAXCBac/edit"
               target="_blank"
               rel="noopener noreferrer"
-              >đọc hướng dẫn</a
             >
-            để biết cách nhận biết)
+              hướng dẫn
+            </a>
+            để biết cách nhận biết. )
           </li>
         </ul>
-        <label class="text-white" for="Link">Link</label><br />
-        <input id="Link" name="Link" type="text" placeholder="Liên kết đến bài hát hoặc album" />
-      </div>
-      <div class="grid-cols-2">
-        <p class="text-xs mt-1">
-          Spotify examples
-          <br />
-          -Bài hát: https://open.spotify.com/track/73zCZUCoXcIU2r1USfmotK
-          <br />
-          -Album: https://open.spotify.com/album/05xPgo0O1tujgg6eDzIfxV
+        <label class="nhãn" for="Link"> Link</label>
+        <br />
+        <input class="box" type="text" placeholder="  Liên kết đến bài hát hoặc album" />
+        <p class="ví-dụ">
+          Ví dụ Spotify <br />
+          - tracks: https://open.spotify.com/track/73zCZUCoXcIU2r1USfmotK <br />
+          - albums: https://open.spotify.com/album/05xPgo0O1tujgg6eDzIfxV <br />
           <br />
           <br />
-          Apple Music examples
-          <br />
-          -Bài hát: https://music.apple.com/us/album/glory-days/1277558617?i=1277558619
-          <br />
-          -Album: https://music.apple.com/us/album/oddtaxi-original-soundtrack/1564426128
+          Ví dụ Apple Music <br />
+          - tracks: https://music.apple.com/us/album/glory-days/1277558617?i=1277558619 <br />
+          - albums: https://music.apple.com/us/album/oddtaxi-original-soundtrack/1564426128
         </p>
-      </div>
-      <div>
-        <label for="link" class="text-white"> Type</label><br />
-        <select name="type" id="type" required class="mt-1">
+        <label class="nhãn" for="Type"> Dạng bài hát</label><br />
+        <br />
+        <select name="Type" id="Type">
           <option selected disabled hidden value>Chọn loại bài hát hoặc album</option>
           <option value="">Opening</option>
           <option value="">Ending</option>
@@ -87,21 +83,89 @@
           <option value="">PV Song</option>
           <option value="">Vocal Album</option>
         </select>
-      </div>
-      <br />
-      <div>
-        <label class="text-white" for="email">E-mail</label> <br />
-        <input type="email" name="email" id="email" placeholder="E-mail address" />
-        <p class="text-xs mt-1">
-          Địa chỉ email (chỉ dùng để thông báo khi bài gửi được chấp nhận/từ chối hoặc yêu cầu bổ sung thông tin)
-        </p>
-      </div>
-      <div>
-        <label class="text-white" for="commet">Thông tin về liên kết bạn muốn gửi:</label> <br />
-        <input id="commet" name="commet" type="text" placeholder="Anime" /><br />
         <br />
-        <button class="bg-white" type="submit">Gửi</button>
+        <br />
+        <div>
+          <label class="nhãn" for="E-mail">E-mail</label>
+          <br />
+          <input class="box" type="email" name="E-mail" placeholder=" Địa chỉ E-mail" />
+          <p>Địa chỉ email (chỉ dùng để thông báo khi bài gửi được chấp nhận/từ chối hoặc yêu cầu bổ sung thông tin)</p>
+        </div>
+        <div>
+          <label class="nhãn" for="comment">Thông tin liên kết bạn muốn gửi</label>
+          <br />
+          <input class="box" type="comment" placeholder=" Anime" />
+          <br />
+          <button class="gửi" type="submit">
+            <a
+              href="https://shopee.vn/M%C3%B4-H%C3%ACnh-Nendoroid-2301-Hakui-Koyori-Kokoro-Hololive-(Good-Smile-Company)-Figure-Ch%C3%ADnh-H%C3%A3ng-i.25463433.25584376643?sp_atk=54e80c6a-8c38-4fdf-992d-cf8baa2077fe&xptdk=54e80c6a-8c38-4fdf-992d-cf8baa2077fe"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Gửi</a
+            >
+          </button>
+        </div>
       </div>
     </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer">
+        <div class="footer-column">
+          <h3>Về chúng tôi</h3>
+          <p>
+            <strong>AkaPlaylist</strong> là nơi dành cho những ai yêu thích nhạc anime – từ các ca khúc mở đầu, kết thúc
+            đến những bản nhạc nền đầy cảm xúc. Trang web giúp bạn dễ dàng tìm lại những giai điệu quen thuộc và tận
+            hưởng trọn vẹn thế giới âm nhạc anime. Chúng tôi mong rằng nơi đây sẽ là không gian gần gũi cho tất cả fan
+            anime tại Việt Nam.
+          </p>
+          <a class="Logo-2" href="../index.html"> <img src="../img/logo-chinhsua.png" alt="Logo web" /></a>
+        </div>
+
+        <div class="footer-column">
+          <h3>Liên kết hữu ích</h3>
+          <ul class="footer-bottom-link">
+            <li>
+              <a href="">Giới thiệu</a>
+            </li>
+            <li>
+              <a href="">Sitemap</a>
+            </li>
+            <li>
+              <a href="">Chính sách Sử dụng</a>
+            </li>
+            <li>
+              <a href="">Điều khoản Bảo mật</a>
+            </li>
+            <li>
+              <a href="">DMCA</a>
+            </li>
+            <li>
+              <a href="">Quyên góp</a>
+            </li>
+            <li>
+              <a href="">Liên hệ</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Quyên góp</h3>
+          <p>
+            AkaPlaylist cần <strong>kinh phí</strong> để duy trì máy chủ. Mọi khoản quyên góp dù là nhỏ nhất, chúng tôi
+            cũng vô cùng cảm kích.
+          </p>
+          <a
+            href="https://shopee.vn/M%C3%B4-H%C3%ACnh-Nendoroid-2301-Hakui-Koyori-Kokoro-Hololive-(Good-Smile-Company)-Figure-Ch%C3%ADnh-H%C3%A3ng-i.25463433.25584376643?sp_atk=54e80c6a-8c38-4fdf-992d-cf8baa2077fe&xptdk=54e80c6a-8c38-4fdf-992d-cf8baa2077fe"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="../img/vnkeyfc-donation.webp" alt="ảnh-donate" />
+          </a>
+        </div>
+      </div>
+    </footer>
+    <a class="Quay-về" href="#" title="Lên đầu trang">&#8679;</a>
   </body>
 </html>
